@@ -63,20 +63,20 @@ export default function LandingPage() {
                   />
                   <div className="absolute top-10 left-10 bg-white rounded-lg shadow-lg p-4 animate-bounce [animation-duration:3s] z-10">
                     <div className="flex items-center gap-2">
-                      <Activity className="h-5 w-5 text-primary" />
-                      <span className="font-medium">Lari: 5,2km</span>
+                      <Activity className="h-5 w-5 text-green-500" />
+                      <span className="font-medium text-black">Lari: 5,2km</span>
                     </div>
                   </div>
-                  <div className="absolute bottom-20 right-10 bg-white rounded-lg shadow-lg p-4 animate-bounce [animation-duration:4s] [animation-delay:1s] z-10">
+                  <div className="absolute bottom-1 right-10 bg-white rounded-lg shadow-lg p-4 animate-bounce [animation-duration:4s] [animation-delay:1s] z-10">
                     <div className="flex items-center gap-2">
                       <Heart className="h-5 w-5 text-red-500" />
-                      <span className="font-medium">Detak Jantung: 142 bpm</span>
+                      <span className="font-medium text-black">Detak Jantung: 142 bpm</span>
                     </div>
                   </div>
-                  <div className="absolute top-32 right-12 bg-white rounded-lg shadow-lg p-4 animate-bounce [animation-duration:3.5s] [animation-delay:0.5s] z-10">
+                  <div className="absolute top-32 right-1 bg-white rounded-lg shadow-lg p-4 animate-bounce [animation-duration:3.5s] [animation-delay:0.5s] z-10">
                     <div className="flex items-center gap-2">
                       <Zap className="h-5 w-5 text-yellow-500" />
-                      <span className="font-medium">Kalori: 320</span>
+                      <span className="font-medium text-black">Kalori: 320</span>
                     </div>
                   </div>
                   <div className="relative z-10 flex flex-col items-center justify-center space-y-2 text-center">
